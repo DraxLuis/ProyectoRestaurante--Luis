@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+
 
 *{
     padding: 0;
@@ -12,10 +14,30 @@ body{
 }
 
 .icon-pollo{
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0,0,0, 0.7)), url(../img/popular-bg.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0,0,0,.7)),  url(../img/popular-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.icon-pollo h1{
+    color: #fff;
+    font-weight: 600;
+    font-size: 60px;
+    font-family: 'Dosis', sans-serif;
+    text-transform: uppercase;
+}
+
+.text-pollo{
+    margin-bottom: 6rem;
+}
+
+.icon-pollo h3{
+    font-size: 20px;
+    display: block;
+    color: #ccc;
 }
 
 .logo{
@@ -27,6 +49,10 @@ body{
 
 .logo:hover{
     color: #130f40;
+}
+
+.img-step1{
+    width: 171px;
 }
 
 .nav-bar{
@@ -98,6 +124,17 @@ i{
     font-size: 18px;
     font-weight: bold;
     border: 2px solid #27ae60;
+    transition: all .3s ease;
+}
+
+.btn-mio2{
+    color: #fff;
+    background: #cd9452;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #cd9452;
     transition: all .3s ease;
 }
 
