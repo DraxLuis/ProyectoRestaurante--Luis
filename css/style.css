@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
 
 
 *{
@@ -30,10 +31,6 @@ body{
     text-transform: uppercase;
 }
 
-.text-pollo{
-    margin-bottom: 6rem;
-}
-
 .icon-pollo h3{
     font-size: 20px;
     display: block;
@@ -58,9 +55,7 @@ body{
 .nav-bar{
     list-style: none;
     display: flex;
-    position: relative;
-    right: 10rem;
-    position: sticky
+    width: 100%;
 }
 
 .nav-bar a{
@@ -234,6 +229,85 @@ i{
 
 .me-2{
     width: 250px;
+}
+
+.hder{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.ctn-7{
+    width: 350px;
+    padding: 20px;
+}
+
+.ctn-form{
+     height: 410px;
+     border-radius: 5px;
+}
+
+.ctn-7 form{
+    padding: 20px;
+}
+
+.ctn-7 form:last-child{
+    color: #9be5aa;
+}
+
+.usuario-ctn{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #999;
+    width: 100%;
+}
+
+.usuario-ctn{
+    margin-bottom: 20px;
+}
+
+.ctn-7 label{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #130f40;
+}
+
+.btn-submit {
+    background: #27ae60;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    font-weight: bold;
+    height: 50px;
+}
+
+.pass-for{
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.title-menu{
+    font-family: 'Redressed', cursive;
+    color: #27ae60;
+}
+
+.title-peruvian{
+    font-family: 'Dosis', sans-serif;
+
+}
+
+.ctn-img-menu img{
+    width: 100%;
+    height: 400px;
+}
+
+.ctn-img-p img{
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 522px){
