@@ -300,14 +300,178 @@ i{
 
 }
 
-.ctn-img-menu img{
+.img-ctn1{
     width: 100%;
     height: 400px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
-.ctn-img-p img{
-    object-fit: cover;
-    border-radius: 10px;
+.img-ctn1 h4, .img-ctn2 h4{
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.img-ctn1 h3, .img-ctn2 h3{
+    font-family: 'Dosis', sans-serif;
+    margin-bottom: 10px;
+    margin-top: 0;
+    font-size: 26px;
+}
+
+.img-ctn2{
+    width: 100%;
+    display: flex;
+    border-radius: 5px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-mio3{
+    color: #fff;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid #cd9452;
+    transition: all .3s ease;  
+}
+
+.btn-mio3:hover{
+    background: #cd9452;
+}
+
+/*    height: 450px;
+*/
+
+.menu-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)), url(../img/menu-1.jpg);
+    background-size: cover;
+}
+
+.menu-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/menu-2.jpg);
+    background-size: cover;
+    height: 450px;
+}
+
+.menu-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/menu-3.jpg);
+    background-size: cover;
+    height: 225px;
+}
+.menu-4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/menu-4.jpg);
+    background-size: cover;
+    height: 450px;
+}
+.menu-5{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/menu-5.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.menu-6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/menu-6.jpg);
+    background-size: cover;
+    height: 700px;
+
+}
+.menu-7{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/menu-7.jpg);
+    background-size: cover;
+    height: 600px;
+}
+.menu-8{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/menu-8.jpg);
+    background-size: cover;
+    height: 225px;
+
+}
+.menu-9{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/menu-9.jpg);
+    background-size: cover;
+    height: 450px;
+}
+.menu-10{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/menu-10.jpg);
+    background-size: cover;
+    height: 450px;
+}
+.menu-11{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/menu-11.jpg);
+    background-size: cover;
+    height: 275px;
+}
+.menu-12{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/menu-12.jpg);
+    background-size: cover;
+    height: 400px;
+}
+.menu-13{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/menu-13.jpg);
+    background-size: cover;
+    height: 500px;
+}
+
+/**JUGOS**/
+
+.jugo-1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugos-1.jpg);
+    background-size: cover;
+}
+.jugo-2{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-2.jpg);
+    background-size: cover;
+}
+.jugo-3{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-3.jpg);
+    background-size: cover;
+}
+.jugo-4{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-4.jpg);
+    background-size: cover;
+}
+.jugo-5{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-5.jpg);
+    background-size: cover;
+}
+.jugo-6{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-6.jpg);
+    background-size: cover;
+}
+.jugo-7{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-7.jpg);
+    background-size: cover;
+}
+.jugo-8{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-8.jpg);
+    background-size: cover;
+}
+.jugo-9{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-9.jpg);
+    background-size: cover;
+}
+.jugo-10{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-10.jpg);
+    background-size: cover;
+}
+.jugo-11{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-11.jpg);
+    background-size: cover;
+}
+.jugo-12{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-12.jpg);
+    background-size: cover;
+}
+.jugo-13{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-13.jpg);
+    background-size: cover;
 }
 
 @media screen and (max-width: 522px){
