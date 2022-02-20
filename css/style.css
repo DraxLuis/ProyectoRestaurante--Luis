@@ -428,50 +428,62 @@ i{
 .jugo-2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-2.jpg);
     background-size: cover;
+    height: 450px;
 }
 .jugo-3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-3.jpg);
     background-size: cover;
+    height: 225px;
 }
 .jugo-4{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-4.jpg);
     background-size: cover;
+    height: 450px;
 }
 .jugo-5{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-5.jpg);
     background-size: cover;
+    height: 600px;
 }
 .jugo-6{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-6.jpg);
     background-size: cover;
+    height: 700px;
 }
 .jugo-7{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-7.jpg);
     background-size: cover;
+    height: 600px;
 }
 .jugo-8{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-8.jpg);
     background-size: cover;
+    height: 225px;
 }
 .jugo-9{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-9.jpg);
     background-size: cover;
+    height: 450px;
 }
 .jugo-10{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-10.jpg);
     background-size: cover;
+    height: 450px;
 }
 .jugo-11{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-11.jpg);
     background-size: cover;
+    height: 275px;
 }
 .jugo-12{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-12.jpg);
     background-size: cover;
+    height: 400px;
 }
 .jugo-13{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0,0,0, 0.5)),url(../img/jugo-13.jpg);
     background-size: cover;
+    height: 500px;
 }
 
 @media screen and (max-width: 522px){
